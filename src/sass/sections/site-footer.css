@@ -1,0 +1,161 @@
+.site-footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+  background-color: #1f2a32; }
+  .site-footer a {
+    color: #02baab;
+    font-weight: 300; }
+  .site-footer h3 {
+    margin: 73px 0 51px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 35px;
+    font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif; }
+  .site-footer .follow {
+    margin-top: 70px;
+    list-style-type: none; }
+    .site-footer .follow li {
+      margin-bottom: 40px; }
+    .site-footer .follow a {
+      color: #ffffff;
+      font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+      font-size: 12px;
+      font-weight: 400; }
+  .site-footer ul p {
+    margin-top: 0; }
+  .site-footer ul li {
+    position: relative;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    width: 210px; }
+  .site-footer ul .latest-tweets {
+    left: 20px; }
+    .site-footer ul .latest-tweets:before {
+      position: absolute;
+      content: url("../../images/twitter.png");
+      width: 15px;
+      height: 14px;
+      left: -20px;
+      top: 0; }
+  .site-footer ul .flag {
+    left: 20px; }
+    .site-footer ul .flag:before {
+      position: absolute;
+      content: url("../../images/flag.png");
+      width: 14px;
+      height: 13px;
+      left: -20px;
+      top: 0; }
+  .site-footer ul .call {
+    left: 20px; }
+    .site-footer ul .call:before {
+      position: absolute;
+      content: url("../../images/call.png");
+      width: 13px;
+      height: 14px;
+      left: -20px;
+      top: 0; }
+  .site-footer ul .mail {
+    left: 20px; }
+    .site-footer ul .mail:before {
+      position: absolute;
+      content: url("../../images/mail.png");
+      width: 13px;
+      height: 10px;
+      left: -20px;
+      top: 0; }
+  .site-footer ul .follow-fb {
+    padding-left: 70px; }
+    .site-footer ul .follow-fb:before {
+      position: absolute;
+      content: url("../../images/follow-fb.png");
+      width: 50px;
+      height: 50px;
+      left: 0;
+      top: calc(50% - 25px); }
+  .site-footer ul .follow-twitt {
+    padding-left: 70px; }
+    .site-footer ul .follow-twitt:before {
+      position: absolute;
+      content: url("../../images/follow-twitt.png");
+      width: 50px;
+      height: 50px;
+      left: 0;
+      top: calc(50% - 25px); }
+  .site-footer ul .follow-u2b {
+    padding-left: 70px; }
+    .site-footer ul .follow-u2b:before {
+      position: absolute;
+      content: url("../../images/follow-u2b.png");
+      width: 50px;
+      height: 50px;
+      left: 0;
+      top: calc(50% - 25px); }
+  .site-footer ul .follow-inst {
+    padding-left: 70px; }
+    .site-footer ul .follow-inst:before {
+      position: absolute;
+      content: url("../../images/follow-inst.png");
+      width: 50px;
+      height: 50px;
+      left: 0;
+      top: calc(50% - 25px); }
+  .site-footer ul .follow-pint {
+    padding-left: 70px; }
+    .site-footer ul .follow-pint:before {
+      position: absolute;
+      content: url("../../images/follow-pint.png");
+      width: 50px;
+      height: 50px;
+      left: 0;
+      top: calc(50% - 25px); }
+  .site-footer footer {
+    margin-top: 85px; }
+    .site-footer footer p {
+      margin-top: 0;
+      width: 233px;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px; }
+  .site-footer .get-in-touch {
+    list-style-type: none; }
+    .site-footer .get-in-touch li {
+      color: #85939f;
+      font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px; }
+      .site-footer .get-in-touch li span {
+        color: #ffffff; }
+  .site-footer .latest-tweets li {
+    color: #ffffff;
+    font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px; }
+    .site-footer .latest-tweets li p {
+      color: #85939f;
+      font-weight: 300;
+      font-size: 12px; }
+  .site-footer .popular-posts {
+    list-style-type: none; }
+    .site-footer .popular-posts li p {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #ffffff; }
+  .site-footer .violet {
+    border-top: 15px solid #7827a9; }
+  .site-footer .blue {
+    border-top: 15px solid #0c8fcc; }
+  .site-footer .red {
+    border-top: 15px solid #de1c5c; }
+  .site-footer .orange {
+    border-top: 15px solid #ffae00; }

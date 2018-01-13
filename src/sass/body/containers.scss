@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+
+  @media (min-width: 576px) {
+    width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 1680px;
+  }
+}
+
+.row {
+  padding-left: 0;
+}

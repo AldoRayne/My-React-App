@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEE,cAAG;EACD,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EAEZ,+BAAmB;IACjB,YAAY,EAAE,IAAI;AAKtB,aAAE;EACA,KAAK,EAAE,OAAO;EAEd,oBAAS;IACP,KAAK,EAAE,OAAO;IAEd,uBAAK;MACH,KAAK,EAAE,OAAO",
+"sources": ["pages-list.scss"],
+"names": [],
+"file": "pages-list.css"
+}

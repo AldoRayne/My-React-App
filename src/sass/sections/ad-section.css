@@ -1,0 +1,32 @@
+.ad-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+  background-color: #02baab; }
+  .ad-section p {
+    margin: 0 0 20px;
+    height: 25px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px; }
+    @media (min-width: 768px) {
+      .ad-section p {
+        text-align: center; } }
+  .ad-section .button {
+    width: 170px;
+    height: 40px;
+    border-color: #ffffff; }
+    .ad-section .button:hover {
+      background: #ffffff; }
+      .ad-section .button:hover a {
+        color: #02baab; }
+    .ad-section .button a {
+      color: #ffffff; }
+  .ad-section .button-move {
+    display: flex;
+    justify-content: flex-end; }
+    @media (min-width: 576px) {
+      .ad-section .button-move {
+        justify-content: center; } }

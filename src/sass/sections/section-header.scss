@@ -1,0 +1,71 @@
+.page-header {
+  height: 300px;
+  padding-bottom: 55px;
+
+  h1 {
+    color: #ffffff;
+    font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    color: #85939f;
+    font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  li {
+    color: #85939f;
+    margin-right: 34px;
+    font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-left: 30px;
+    list-style-type: none;
+  }
+}
+
+.user-circle {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '\f2bd';
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #3b4954;
+    left: 0;
+  }
+}
+
+.clock-o {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '\f017';
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #3b4954;
+    left: 0;
+  }
+}
+
+.quote {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '\f10d';
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #3b4954;
+    left: 0;
+  }
+}

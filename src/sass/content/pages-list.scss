@@ -1,0 +1,25 @@
+.pages-list {
+
+  li {
+    width: 30px;
+    height: 30px;
+    list-style-type: none;
+
+    &:not(:last-child) {
+      margin-right: 26px;
+
+    }
+  }
+
+  a {
+    color: #02baab;
+
+    &:active {
+      color: #3b4954;
+
+      & li {
+        color: #eeeeee;
+      }
+    }
+  }
+}

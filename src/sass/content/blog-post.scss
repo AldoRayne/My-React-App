@@ -1,0 +1,36 @@
+.blog-post {
+  margin-top: 100px;
+  list-style-type: none;
+
+  &-item {
+    border-bottom: 1px solid #c3c3c3;
+    margin-bottom: 50px;
+
+    h3 {
+      width: 287px;
+      margin-top: 30px;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 30px;
+      font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+    }
+
+    a{
+      text-decoration: none;
+      color: #02baab;
+
+      &:hover {
+        color: #6d0fae;
+      }
+    }
+
+    p {
+      width: 287px;
+      margin-top: 28px;
+    }
+
+    span {
+      margin-left: 130px;
+    }
+  }
+}

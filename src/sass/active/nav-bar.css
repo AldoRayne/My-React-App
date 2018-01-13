@@ -1,0 +1,105 @@
+.nav-bar-comp form {
+  width: 210px;
+  margin: 8px 0 12px;
+  border: 1px solid rgba(133, 147, 159, 0.5); }
+
+.nav-bar-comp .form-control {
+  height: 28px;
+  background: none;
+  border: none;
+  color: #85939f;
+  font-family: "Lato", "Arial", "Helvetica", "Verdana", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 35px; }
+
+.nav-bar-comp .btn {
+  background: none;
+  height: 28px;
+  cursor: pointer; }
+
+.nav-bar-comp .authorization-btn {
+  display: flex;
+  align-items: center; }
+  @media (min-width: 576px) {
+    .nav-bar-comp .authorization-btn {
+      justify-content: flex-end; } }
+  .nav-bar-comp .authorization-btn button {
+    background: none;
+    border: none;
+    color: #85939f;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 35px;
+    font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+    cursor: pointer; }
+    @media (max-width: 568px) {
+      .nav-bar-comp .authorization-btn button {
+        margin-bottom: 18px; } }
+    .nav-bar-comp .authorization-btn button:not(:first-child) {
+      margin-left: 35px; }
+    .nav-bar-comp .authorization-btn button[name="login"]:before {
+      content: url("../../images/login.png");
+      margin-right: 4px; }
+    .nav-bar-comp .authorization-btn button[name="register"]:before {
+      content: url("../../images/registr.png");
+      margin-right: 4px; }
+
+.nav-bar-comp .navbar {
+  padding: 0; }
+
+.nav-bar-comp .navbar-collapse {
+  position: relative; }
+
+.nav-bar-comp .navbar-nav {
+  width: 100%;
+  height: 100%; }
+  .nav-bar-comp .navbar-nav li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 14.3%;
+    transition: 0.1s; }
+
+.nav-bar-comp .nav-link {
+  color: #ffffff !important;
+  font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 35px;
+  text-transform: uppercase; }
+
+.nav-bar-comp .yellow {
+  border-top: 10px solid #ffae00; }
+  .nav-bar-comp .yellow:hover {
+    background-color: #ffae00; }
+
+.nav-bar-comp .orange {
+  border-top: 10px solid #fc7100; }
+  .nav-bar-comp .orange:hover {
+    background-color: #fc7100; }
+
+.nav-bar-comp .crimson {
+  border-top: 10px solid #e51c5e; }
+  .nav-bar-comp .crimson:hover {
+    background-color: #e51c5e; }
+
+.nav-bar-comp .violet {
+  border-top: 10px solid #ae0f8d; }
+  .nav-bar-comp .violet:hover {
+    background-color: #ae0f8d; }
+
+.nav-bar-comp .purple {
+  border-top: 10px solid #6d0fae; }
+  .nav-bar-comp .purple:hover {
+    background-color: #6d0fae; }
+
+.nav-bar-comp .midnight {
+  border-top: 10px solid #33227a; }
+  .nav-bar-comp .midnight:hover {
+    background-color: #33227a; }
+
+.nav-bar-comp .blue {
+  border-top: 10px solid #0c8fcc; }
+  .nav-bar-comp .blue:hover {
+    background-color: #0c8fcc; }

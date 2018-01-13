@@ -1,0 +1,44 @@
+.company-exp {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+  background-color: #02baab; }
+  .company-exp h2 {
+    color: #ffffff;
+    margin-bottom: 50px; }
+    .company-exp h2:before {
+      content: "";
+      background-color: #ffffff; }
+  .company-exp ul {
+    position: relative; }
+    .company-exp ul li {
+      margin-bottom: 120px; }
+    .company-exp ul:before {
+      position: absolute;
+      content: url("../../images/three-points-row.png");
+      width: 70px;
+      height: 10px;
+      left: calc(50% - 35px); }
+      @media (min-width: 992px) {
+        .company-exp ul:before {
+          transform: translate(-40px) rotate(90deg);
+          top: calc(50% - 70px); } }
+      @media (min-width: 1200px) {
+        .company-exp ul:before {
+          transform: translate(-190px) rotate(0deg);
+          top: 0; } }
+    .company-exp ul:after {
+      position: absolute;
+      content: url("../../images/three-points-row.png");
+      width: 70px;
+      height: 10px;
+      right: calc(50% - 35px); }
+      @media (min-width: 992px) {
+        .company-exp ul:after {
+          transform: translate(40px) rotate(-90deg);
+          top: calc(50% - 70px); } }
+      @media (min-width: 1200px) {
+        .company-exp ul:after {
+          transform: translate(190px) rotate(0deg);
+          top: 0; } }

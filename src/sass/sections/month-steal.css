@@ -1,0 +1,10 @@
+.month-steal {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px; }
+  .month-steal h2:before {
+    content: "";
+    background-color: #eeeeee; }
+  .month-steal button {
+    margin-top: 46px; }

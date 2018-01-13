@@ -1,0 +1,246 @@
+.site-footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+  background-color: #1f2a32;
+
+
+  a{
+    color: #02baab;
+    font-weight: 300;
+  }
+
+  h3 {
+    margin: 73px 0 51px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 35px;
+    font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+  }
+
+  .follow {
+    margin-top: 70px;
+    list-style-type: none;
+
+    li {
+      margin-bottom: 40px;
+    }
+
+    a {
+      color: #ffffff;
+      font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+
+    }
+  }
+
+  ul {
+
+
+    p {
+      margin-top: 0;
+    }
+
+    li {
+      position: relative;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+      color: #ffffff;
+      margin-bottom: 30px;
+      width: 210px;
+    }
+
+    .latest-tweets {
+      left: 20px;
+
+      &:before {
+        position: absolute;
+        content: url("../../images/twitter.png");
+        width: 15px;
+        height: 14px;
+        left: -20px;
+        top: 0;
+      }
+    }
+
+    .flag {
+      left: 20px;
+
+      &:before {
+        position: absolute;
+        content: url("../../images/flag.png");
+        width: 14px;
+        height: 13px;
+        left: -20px;
+        top: 0;
+      }
+    }
+
+    .call {
+      left: 20px;
+
+      &:before {
+        position: absolute;
+        content: url("../../images/call.png");
+        width: 13px;
+        height: 14px;
+        left: -20px;
+        top: 0;
+      }
+    }
+
+    .mail {
+      left: 20px;
+
+      &:before {
+        position: absolute;
+        content: url("../../images/mail.png");
+        width: 13px;
+        height: 10px;
+        left: -20px;
+        top: 0;
+      }
+    }
+
+    .follow-fb {
+      padding-left: 70px;
+
+      &:before {
+        position: absolute;
+        content: url("../../images/follow-fb.png");
+        width: 50px;
+        height: 50px;
+        left: 0;
+        top: calc(50% - 25px);
+      }
+    }
+
+    .follow-twitt {
+      padding-left: 70px;
+
+      &:before {
+        position: absolute;
+        content: url("../../images/follow-twitt.png");
+        width: 50px;
+        height: 50px;
+        left: 0;
+        top: calc(50% - 25px);
+      }
+    }
+
+    .follow-u2b {
+      padding-left: 70px;
+
+      &:before {
+        position: absolute;
+        content: url("../../images/follow-u2b.png");
+        width: 50px;
+        height: 50px;
+        left: 0;
+        top: calc(50% - 25px);
+      }
+    }
+
+    .follow-inst {
+      padding-left: 70px;
+
+      &:before {
+        position: absolute;
+        content: url("../../images/follow-inst.png");
+        width: 50px;
+        height: 50px;
+        left: 0;
+        top: calc(50% - 25px);
+      }
+    }
+
+    .follow-pint {
+      padding-left: 70px;
+
+      &:before {
+        position: absolute;
+        content: url("../../images/follow-pint.png");
+        width: 50px;
+        height: 50px;
+        left: 0;
+        top: calc(50% - 25px);
+      }
+    }
+  }
+
+  footer {
+    margin-top: 85px;
+
+    p {
+      margin-top: 0;
+      width: 233px;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+    }
+  }
+
+  .get-in-touch {
+    list-style-type: none;
+    li{
+      color: #85939f;
+      font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 24px;
+
+      span {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .latest-tweets li {
+    color: #ffffff;
+    font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+
+    p {
+      color: #85939f;
+      font-weight: 300;
+      font-size: 12px;
+    }
+  }
+
+  .popular-posts{
+    list-style-type: none;
+
+    li{
+
+      p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .violet {
+    border-top: 15px solid #7827a9;
+  }
+
+  .blue {
+    border-top: 15px solid #0c8fcc;
+  }
+
+  .red {
+    border-top: 15px solid #de1c5c;
+  }
+
+  .orange {
+    border-top: 15px solid #ffae00;
+  }
+}

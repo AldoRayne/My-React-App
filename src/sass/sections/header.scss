@@ -1,0 +1,28 @@
+.head {
+  position: relative;
+  width: 100%;
+
+  .container-fluid {
+    margin: 0;
+
+    &:first-child {
+      position: relative;
+      background-color: black;
+    }
+
+    &:nth-child(2) {
+      position: relative;
+      background-color: #868e96;
+    }
+  }
+}
+
+.information {
+  position: relative;
+  background: url("../../images/background-image.jpg") 100% 100% no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+
+

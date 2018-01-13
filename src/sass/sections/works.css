@@ -1,0 +1,12 @@
+.works {
+  position: relative;
+  width: 100%;
+  background-color: #0c8fcc;
+  padding-bottom: 100px; }
+  .works header h2 {
+    color: #ffffff; }
+    .works header h2:before {
+      content: "";
+      background-color: #ffffff; }
+  .works header p {
+    color: #ffffff; }

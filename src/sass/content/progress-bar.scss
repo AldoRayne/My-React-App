@@ -1,0 +1,142 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.set-size {
+  font-size: 10em;
+}
+
+.charts-container:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.pie-wrapper {
+  height: 210px;
+  width: 210px;
+  float: left;
+  margin: 15px;
+  position: relative;
+}
+
+.pie-wrapper:nth-child(3n+1) {
+  clear: both;
+}
+
+.pie-wrapper .pie {
+  height: 100%;
+  width: 100%;
+  clip: rect(0, 1em, 1em, 0.5em);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.pie-wrapper .pie .half-circle {
+  height: 100%;
+  width: 100%;
+  border: 5px solid #3498db;
+  border-radius: 50%;
+  clip: rect(0, 0.5em, 1em, 0);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.pie-wrapper .label {
+  background-color: #02baab;
+  border-radius: 50%;
+  bottom: 0.4em;
+  color: #ecf0f1;
+  cursor: default;
+  display: block;
+  font-size: 0.25em;
+  left: 0.4em;
+  line-height: 2.6em;
+  position: absolute;
+  right: 0.4em;
+  text-align: center;
+  top: 0.4em;
+}
+
+.pie-wrapper .label .smaller {
+  color: #bdc3c7;
+  font-size: .45em;
+  padding-bottom: 20px;
+  vertical-align: super;
+}
+
+.pie-wrapper .shadow {
+  height: 100%;
+  width: 100%;
+  border: 5px solid rgba(67, 116, 105, 0.42);
+  border-radius: 50%;
+}
+
+.big-num {
+  margin-top: 30px;
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 24px;
+  font-size: 48px;
+}
+
+.description {
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.pie-wrapper .style-2 .label {
+  position: relative;
+  background: none;
+  color: #7f8c8d;
+}
+
+.label {
+  position: relative;
+
+  img {
+    position: absolute;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+  }
+
+  &.gears:before {
+    position: absolute;
+    content: url("../../images/gears.png");
+    width: 60px;
+    height: 56px;
+    z-index: 1;
+    left: calc(50% - 32px);
+    top: calc(50% - 34px);
+  }
+
+  &.phone:before {
+    position: absolute;
+    content: url("../../images/phone.png");
+    width: 60px;
+    height: 56px;
+    z-index: 1;
+    left: calc(50% - 30px);
+    top: calc(50% - 37px);
+  }
+
+  &.rocket:before {
+    position: absolute;
+    content: url("../../images/rocket.png");
+    width: 60px;
+    height: 56px;
+    z-index: 1;
+    left: calc(50% - 33px);
+    top: calc(50% - 34px);
+  }
+}
+
+
+

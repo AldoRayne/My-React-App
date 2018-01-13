@@ -1,0 +1,44 @@
+.comments-list {
+  position: relative;
+  margin-top: 52px; }
+  .comments-list li {
+    position: relative;
+    height: 180px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border: 5px solid transparent;
+    padding: 20px;
+    overflow: hidden; }
+    .comments-list li:hover {
+      border-color: #dee7ed; }
+    .comments-list li a {
+      text-decoration: none;
+      color: #02baab;
+      font-weight: 700;
+      line-height: 24px;
+      font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+      font-size: 14px; }
+    .comments-list li p {
+      color: #3b4954;
+      font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      margin: 0; }
+  .comments-list .time {
+    margin: 0;
+    color: #85939f;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif; }
+
+.upper-comment-item {
+  width: 100%; }
+
+.lower-comment-item {
+  width: 95%;
+  left: 5%; }
+
+.middle-border {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(133, 147, 159, 0.5); }

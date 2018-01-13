@@ -1,0 +1,104 @@
+.features {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+
+  h2 {
+    margin-bottom: 55px;
+
+    &:before {
+      content: "";
+      background-color: #eeeeee;
+    }
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #000000;
+    font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+    padding-left: 30px;
+  }
+
+  ul {
+    list-style-type: none;
+
+    li {
+      position: relative;
+      margin-bottom: 70px;
+      box-sizing: border-box;
+
+      @media (min-width: 992px) {
+        &:nth-child(odd) {
+          padding-left: 50px;
+        }
+        &:nth-child(even) {
+          padding-left: 120px;
+        }
+      }
+
+      @media (min-width: 768px) {
+        &:nth-child(even) {
+          padding-left: 80px;
+        }
+      }
+
+      p {
+        margin-top: 13px;
+        width: 300px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        font-family: "Oxygen", "Helvetica", "Verdana", "Arial", sans-serif;
+        padding-left: 30px;
+      }
+    }
+
+    .star:before {
+      position: absolute;
+      content: url("../../images/star-icon.png");
+      width: 39px;
+      height: 39px;
+      top: 0;
+      left: -15px;
+    }
+
+    .challece:before {
+      position: absolute;
+      content: url("../../images/challece-icon.png");
+      width: 36px;
+      height: 33px;
+      top: 0;
+      left: -15px;
+      
+      @media (min-width: 768px) {
+        left: 30px;
+      }
+    }
+
+    .pan:before {
+      position: absolute;
+      content: url("../../images/pan-icon.png");
+      width: 33px;
+      height: 33px;
+      top: 0;
+      left: -10px;
+    }
+
+    .cloud:before {
+      position: absolute;
+      content: url("../../images/cloud-icon.png");
+      width: 41px;
+      height: 26px;
+      top: 0;
+      left: -20px;
+
+      @media (min-width: 768px) {
+        left: 30px;
+      }
+    }
+  }
+}
+
